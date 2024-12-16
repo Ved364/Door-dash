@@ -1,22 +1,21 @@
 *{
     font-family: verdana;
 }
-.flex-container{
+.flex-container2{
     background-color: white;
     display:flex;
     align-items:center;
 }
 .dasher{
-    border-radius: 13px;
-    border: 1px solid red;
+    border-radius: 20px;
     background-color: red;
     color:white;
     padding:10px;
+    border: 0;
+    font-weight: bold;
 }
-.flex-container > .mydiv7{
-    color:black;
-    padding:30px;
-}
+
 .dasher:hover{
     background-color: brown;
+    cursor: pointer;
 }

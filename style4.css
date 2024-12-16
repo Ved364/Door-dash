@@ -2,23 +2,25 @@
     font-family: verdana;
 }
 .flex-container{
-    background-color: antiquewhite;
-    display:flex;
-    justify-content: center;
-    align-items:center;
-}
-.flex-container > .mydiv4{
-    color:black;
-    padding:30px;
-}
-#div4{
-    color:antiquewhite;
-    padding: 250px;
-    padding-left:50px;
-    padding-right: 50px;
-    align-items:center;
-    text-align:center;
-    background-image: url('./img/img41.png');
+    background: rgba(0,0,0,0.7)url('./img/img41.png');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div4{
+    background-color: grey;
+    background: transparent;
+    height: 20rem;
+    width: 32rem;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
 }
