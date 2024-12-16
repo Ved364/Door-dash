@@ -1,0 +1,508 @@
+header {
+    background-color: orangered;
+    height: 80vh;
+    top:0;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.pic1 {
+    width: 20rem;
+    height: 25rem;
+    position: absolute;
+    top: -150;
+    left: -80;
+}
+
+.pic2 {
+    width:20rem;
+    height: 25rem;
+    position: absolute;
+    left: -50;
+    bottom: -67;
+}
+
+.pic3 {
+    width: 18rem;
+    height: 20rem;
+    position: absolute;
+    bottom: -50;
+    left: 200;
+}
+
+.pic4 {
+    width: 30rem;
+    height: 21rem;
+    position: absolute;
+    bottom: -40;
+    right: -75;
+}
+
+.pic5 {
+    width: 15rem;
+    height: 20rem;
+    position: absolute;
+    right: 40;
+    top: 80;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    grid-template-areas: 
+    '. b c';
+}
+
+.logo {
+    height: 3rem;
+    width: 18rem;
+}
+
+.logo-con {
+    grid-area: b;
+    justify-self: center;
+    margin-left: 150px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    grid-area: c;
+    justify-content: end;
+}
+
+.button1, .button2 {
+    padding: 10px 20px;
+    border-radius: 18px;
+    border: 0;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bold;
+    position: relative;
+    z-index: 10;
+}
+
+.button1 {
+    background-color: rgba(255, 0, 60, 0.734);
+    color: white;
+}
+
+.button1:hover {
+    background-color: darkred;
+}
+
+.button2 {
+    background-color: white;
+    color:grey;
+}
+
+.box2 {
+    background-color: white;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.heading {
+    color: white;
+    font-weight: bold;
+    font-size: 47px;
+}
+
+.input1 {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 25px;
+    border:0;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 45px;
+    font-size: 17px;
+    box-shadow: 1px 1px 3px;
+}
+
+.input1:focus {
+    border: 1px solid blue;
+    outline: 1px solid blue;
+}
+
+::placeholder {
+    color: grey;
+    font-size: 15px;
+}
+
+.box1 {
+    display: flex;
+    align-items: center;
+}
+
+.location {
+    color: grey;
+    font-size: 30px;
+    position: absolute;
+    z-index: 10;
+    padding-left: 6px;
+    padding-bottom: 12px;
+}
+
+.arrow {
+    color: red;
+    font-size: 45px;
+    position: absolute;
+    z-index: 10;
+    right: 560;
+    padding-bottom: 10px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+}
+.button3 {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 0;
+    position: relative;
+    padding-left: 32px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px;
+}
+
+.button3:hover, .button1:hover, .button2:hover, .card2-button:hover{
+    cursor: pointer;
+}
+
+.human {
+    position: absolute;
+    z-index: 10;
+    padding-left: 12px;
+    font-size: 18px;
+}
+
+.card {
+    background-color: white;
+    background: transparent;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 80px;
+    margin-top: 5rem;
+}
+
+.card1 {
+    background-color: grey;
+    background: transparent;
+    height: 60vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.card-pic {
+    height: 10rem;
+    width: 10rem;
+}
+
+.card-heading {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.card-para {
+    font-size: 18px;
+}
+
+.card-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-linkpara {
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-icon {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: orangered;
+}
+
+.card-linkpara:hover, .card-icon:hover {
+    cursor: pointer;
+}
+
+.card-pic1 {
+    height: 15rem;
+    width:5rem;
+}
+
+.card2 {
+    background-color: white;
+    background: transparent;
+    height: 70vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    padding: 10px;
+    position: relative;
+}
+
+.card2-card {
+    background-color: white;
+    background: transparent;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card2-pic {
+    height: 35rem;
+    width: 48rem;
+    border-radius: 10px;
+}
+
+.card2-heading {
+    font-size: 42px;
+}
+
+.card2-para {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.card2-button {
+    padding: 13px 14px;
+    border-radius: 25px;
+    color: white;
+    background-color: red;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card2-para1 {
+    font-size: 17px;
+}
+
+.card3 {
+    background-color: rgba(255, 182, 193, 0.266);
+    height: 90vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    padding: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer {
+    background-color: black;
+    color: grey;
+    padding: 15px;
+}
+
+.footer-para {
+    color: white;
+    margin-left: 8.4rem;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    justify-content: center;
+    grid-gap: 10px 0;
+    margin-bottom: 4rem;
+}
+
+.footer-container span:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-card {
+    background-color: grey;
+    background: transparent;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-para1 {
+    color: white
+}
+
+.main-footer-card {
+    display: flex;
+    margin-left: 8.4rem;
+}
+
+.footer-card span:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.main-footer-card1 {
+    margin-top: 35px;
+}
+
+.footer-card1 {
+    background-color: gray;
+    height: 60px;
+    width: 11rem;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-top: 12px;
+}
+
+.footer-card1-icon {
+    font-size: 3rem;
+    color: darkgrey
+}
+
+.footer-card1-sen {
+    display: flex;
+    flex-direction: column;
+    color: darkgrey;
+}
+
+.footer-card1-para {
+    font-weight: bold;
+}
+
+.footer-card1-para1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer-card1:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.dob-main-footer {
+    display: flex;
+    column-gap: 28rem;
+    margin-bottom: 2rem;
+}
+
+.footer-card1-para2 {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.footer-last {
+    display: flex;
+    column-gap: 20px;
+}
+
+.main-footer-last {
+    display: flex;
+    gap: 40px;
+    margin-left: 8.4rem;
+    margin-bottom: 2rem;
+}
+
+.footer-last p:hover, .footer-last1:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.circle-c {
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    text-align: center;
+    outline: 2px solid;
+    font-size: 13px;
+    background: transparent;
+}
+
+.footer-last1 {
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+
+.helping-section {
+    text-align: center;
+}
+
+.helping-section-heading {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.helping-section-card {
+    background-color: white;
+    background: transparent;
+    height: 100vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Helping {
+    background-color: rgba(255, 182, 193, 0.266);
+}
+
+.Delivery-img, .Wine-img, .pet-img {
+    height: 32rem;
+    width: 32rem;
+    border-radius: 12px;
+}
+
+.Flowers-img {
+    height: 55rem;
+    width: 35rem;
+    border-radius: 12px;
+}
+
+.Help-card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40vh;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
