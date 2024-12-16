@@ -1,0 +1,22 @@
+*{
+    font-family: verdana;
+}
+.flex-container{
+    background-color: white;
+    display:flex;
+    align-items:center;
+}
+.shopnow{
+    border-radius: 13px;
+    border: 1px solid red;
+    background-color: red;
+    color:white;
+    padding:10px;
+}
+.flex-container > .mydiv5{
+    color:black;
+    padding:30px;
+}
+.shopnow:hover{
+    background-color: brown;
+}

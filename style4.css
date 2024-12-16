@@ -1,0 +1,23 @@
+*{
+    font-family: verdana;
+}
+.flex-container{
+    background-color: antiquewhite;
+    display:flex;
+    align-items:center;
+}
+.flex-container > .mydiv4{
+    color:black;
+    padding:30px;
+}
+#div4{
+    color:antiquewhite;
+    padding: 250px;
+    padding-left:50px;
+    padding-right: 50px;
+    align-items:center;
+    text-align:center;
+    background-image: url('img\img41.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
