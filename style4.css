@@ -4,6 +4,7 @@
 .flex-container{
     background-color: antiquewhite;
     display:flex;
+    justify-content: center;
     align-items:center;
 }
 .flex-container > .mydiv4{
