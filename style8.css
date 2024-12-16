@@ -1,0 +1,23 @@
+*{
+    font-family: verdana;
+}
+.flex-container{
+    background-color:antiquewhite;
+    display:flex;
+    align-items:center;
+}
+.partner{
+    border-radius: 13px;
+    border: 1px solid red;
+    background-color: red;
+    color:white;
+    padding:10px;
+}
+.flex-container > .mydiv8{
+    color:black;
+    padding:30px;
+    padding-top: 0;
+}
+.partner:hover{
+    background-color: brown;
+}
